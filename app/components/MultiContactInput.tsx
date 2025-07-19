@@ -34,7 +34,7 @@ export default function MultiContactInput({ contacts, setContacts }: Props) {
 
   return (
     <div>
-      <label className="block text-sm font-medium text-gray-700 mb-1">Point of Contact</label>
+      <strong>Point of Contact</strong>
       <div className="flex flex-wrap gap-2 mt-2">
         {contacts.map((contact, i) => (
           <Badge key={i} variant="outline" className="flex items-center gap-1">
